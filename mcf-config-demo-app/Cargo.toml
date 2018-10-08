@@ -7,6 +7,6 @@ edition = "2018"
 [dependencies]
 mcf-config-demo-lib = "0.1"
 
-# Comment this out to see default behavior
-[patch.crates-io.mcf-config-demo-settings]
-path = "../mcf-config-demo-override"
+# Uncomment this to modify default behavior
+# [patch.crates-io.mcf-config-demo-settings]
+# path = "../mcf-config-demo-override"
