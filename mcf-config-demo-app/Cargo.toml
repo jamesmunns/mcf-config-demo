@@ -5,4 +5,8 @@ authors = ["James Munns <james@onevariable.com>"]
 edition = "2018"
 
 [dependencies]
-mcf-config-demo-lib = { path = "../mcf-config-demo-lib" }
+mcf-config-demo-lib = "0.1"
+
+# Comment this out to see default behavior
+[patch.crates-io.mcf-config-demo-settings]
+path = "../mcf-config-demo-override"

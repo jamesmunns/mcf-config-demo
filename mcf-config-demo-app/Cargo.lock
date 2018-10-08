@@ -2,12 +2,13 @@
 name = "mcf-config-demo-app"
 version = "0.1.0"
 dependencies = [
- "mcf-config-demo-lib 0.1.0",
+ "mcf-config-demo-lib 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "mcf-config-demo-lib"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "mcf-config-demo-settings 0.1.0",
 ]
@@ -16,3 +17,5 @@ dependencies = [
 name = "mcf-config-demo-settings"
 version = "0.1.0"
 
+[metadata]
+"checksum mcf-config-demo-lib 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "cf829c71ce6b10bdb500802c6b579dcbd90de1022259a4a2f6365f6985929f9e"
