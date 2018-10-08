@@ -1,0 +1,8 @@
+[package]
+name = "mcf-config-demo-app"
+version = "0.1.0"
+authors = ["James Munns <james@onevariable.com>"]
+edition = "2018"
+
+[dependencies]
+mcf-config-demo-lib = { path = "../mcf-config-demo-lib" }

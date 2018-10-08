@@ -1,0 +1,18 @@
+[[package]]
+name = "mcf-config-demo-app"
+version = "0.1.0"
+dependencies = [
+ "mcf-config-demo-lib 0.1.0",
+]
+
+[[package]]
+name = "mcf-config-demo-lib"
+version = "0.1.0"
+dependencies = [
+ "mcf-config-demo-settings 0.1.0",
+]
+
+[[package]]
+name = "mcf-config-demo-settings"
+version = "0.1.0"
+
