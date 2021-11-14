@@ -3,6 +3,7 @@ name = "mcf-config-demo-app"
 version = "0.1.0"
 authors = ["James Munns <james@onevariable.com>"]
 edition = "2018"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 mcf-config-demo-lib = "0.1"
